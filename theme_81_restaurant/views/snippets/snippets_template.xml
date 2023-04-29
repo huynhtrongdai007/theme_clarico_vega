@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_81_restaurant.s_banner"
+                t-thumbnail="/theme_81_restaurant/static/src/img/ui/snippet.jpg"/>
+    </xpath>
+                                                                                                                        
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_81_restaurant.image_text"
+                t-thumbnail="/theme_81_restaurant/static/src/img/ui/snippet.jpg"/>
+    </xpath>
+
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_81_restaurant.testimonials_two"
+                t-thumbnail="/theme_81_restaurant/static/src/img/ui/snippet.jpg"/>
+    </xpath>
+</template>
+
+    <template id="s_banner" name="banner">
+        <section class="inner-banner">
+            <div class="image-layer" style="background-image: url(/theme_81_restaurant/static/src/img/background/banner-image-4.jpg);"></div>
+            <div class="auto-container">
+                <div class="inner">
+                    <div class="subtitle"><span>any query ?</span></div>
+                    <div class="pattern-image"><img src="theme_81_restaurant/static/src/img/icons/separator.svg" alt="" title=""/></div>
+                    <h1><span>Contact Us</span></h1>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="image_text" name="Image Text">
+    <section class="chef-section">
+        <div class="right-bg"><img src="/theme_81_restaurant/static/src/img/background/bg-26.png" alt="" title=""/></div>
+        <div class="auto-container">
+            <div class="row clearfix">
+                <!--Col-->
+                <div class="image-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <div class="image"><img src="/theme_81_restaurant/static/src/img/resource/mainchef.jpg" alt=""/></div>
+                    </div>
+                </div>
+                <!--Col-->
+                <div class="content-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner clearfix wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <div class="content-box">
+                            <div class="title-box">
+                                <div class="subtitle"><span>35 year of experience</span></div>
+                                <div class="pattern-image"><img src="/theme_81_restaurant/static/src/img/icons/separator.svg" alt="" title=""/></div>
+                                <h2>Award Winning Chef</h2>
+                                <div class="text">Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type.</div>
+                            </div>
+                            <div class="info">
+                                <div class="signature"><img src="/theme_81_restaurant/static/src/img/resource/signature-2.png" alt="" title=""/></div>
+                                <div class="author">Henry - EXCUTIVE CHEF</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    </template>
+
+
+
+    <template id="testimonials_two" name="testimonials two">
+           <section class="testimonials-two">
+        <div class="image-layer" style="background-image: url(/theme_81_restaurant/static/src/img/background/image-7.jpg);"></div>
+        <div class="auto-container">
+            
+            <div class="title-box centered">
+                <div class="subtitle"><span>testimonials</span></div>
+                <div class="pattern-image"><img src="/theme_81_restaurant/static/src/img/icons/separator.svg" alt="" title=""/></div>
+                <h2>What People Are Saying</h2>
+            </div>
+            <div class="carousel-box">
+                <div class="testimonial-slider owl-theme owl-carousel">
+                    <!--Slide Item-->
+                    <div class="testi-block">
+                        <div class="inner-box">
+                            <div class="quote-icon"><img src="/theme_81_restaurant/static/src/img/icons/quotes-1.png" alt="" title=""/></div>
+                            <div class="rating"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></div>
+                            <div class="text">The taste of food was really amazing, Wow ! outstanding dinner made by Mater chef John Rute, I never forget this delicious food experience.</div>
+                            <div class="auth-info">
+                                <div class="image"><img src="/theme_81_restaurant/static/src/img/resource/author-thumb-4.jpg" alt=""/></div>
+                                <div class="auth-title">willium joe</div>
+                                <div class="location">New York</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Slide Item-->
+                    <div class="testi-block">
+                        <div class="inner-box">
+                            <div class="quote-icon"><img src="/theme_81_restaurant/static/src/img/icons/quotes-1.png" alt="" title=""/></div>
+                            <div class="rating"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></div>
+                            <div class="text">Hygienic food &amp; fresh enviroment, everyone had a wonderful delite experience. It was FABULOUS! great experience at The Italian gourmet.</div>
+                            <div class="auth-info">
+                                <div class="image"><img src="/theme_81_restaurant/static/src/img/resource/author-thumb-5.jpg" alt=""/></div>
+                                <div class="auth-title">Theresa Tin</div>
+                                <div class="location">Chicago</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Slide Item-->
+                    <div class="testi-block">
+                        <div class="inner-box">
+                            <div class="quote-icon"><img src="/theme_81_restaurant/static/src/img/icons/quotes-1.png" alt="" title=""/></div>
+                            <div class="rating"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></div>
+                            <div class="text">Special treat to dine, It was wow experience food was really delicious! outstanding dinner made by Mater chef, food experience was unfogetable!</div>
+                            <div class="auth-info">
+                                <div class="image"><img src="/theme_81_restaurant/static/src/img/resource/author-thumb-6.jpg" alt=""/></div>
+                                <div class="auth-title">Michel Byrd</div>
+                                <div class="location">Denmark</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Slide Item-->
+                    <div class="testi-block">
+                        <div class="inner-box">
+                            <div class="quote-icon"><img src="/theme_81_restaurant/static/src/img/icons/quotes-1.png" alt="" title=""/></div>
+                            <div class="rating"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></div>
+                            <div class="text">The taste of food was really amazing, Wow ! outstanding dinner made by Mater chef John Rute, I never forget this delicious food experience.</div>
+                            <div class="auth-info">
+                                <div class="image"><img src="/theme_81_restaurant/static/src/img/resource/author-thumb-4.jpg" alt=""/></div>
+                                <div class="auth-title">willium joe</div>
+                                <div class="location">New York</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Slide Item-->
+                    <div class="testi-block">
+                        <div class="inner-box">
+                            <div class="quote-icon"><img src="/theme_81_restaurant/static/src/img/icons/quotes-1.png" alt="" title=""/></div>
+                            <div class="rating"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></div>
+                            <div class="text">Hygienic food &amp; fresh enviroment, everyone had a wonderful delite experience. It was FABULOUS! great experience at The Italian gourmet.</div>
+                            <div class="auth-info">
+                                <div class="image"><img src="/theme_81_restaurant/static/src/img/resource/author-thumb-5.jpg" alt=""/></div>
+                                <div class="auth-title">Theresa Tin</div>
+                                <div class="location">Chicago</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Slide Item-->
+                    <div class="testi-block">
+                        <div class="inner-box">
+                            <div class="quote-icon"><img src="/theme_81_restaurant/static/src/img/icons/quotes-1.png" alt="" title=""/></div>
+                            <div class="rating"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></div>
+                            <div class="text">Special treat to dine, It was wow experience food was really delicious! outstanding dinner made by Mater chef, food experience was unfogetable!</div>
+                            <div class="auth-info">
+                                <div class="image"><img src="/theme_81_restaurant/static/src/img/resource/author-thumb-6.jpg" alt=""/></div>
+                                <div class="auth-title">Michel Byrd</div>
+                                <div class="location">Denmark</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    </template>
+</odoo>

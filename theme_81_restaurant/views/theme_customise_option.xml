@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- ================ Added new custom Header in customize option ================ -->
+    <!-- <template id="header_custom_options" inherit_id="website.snippet_options">
+        <xpath expr="//we-select[@data-variable='header-template']/we-button[last()]" position="after">
+            <we-button title="Header Style 1"
+                       data-name="header_style_1_opt"
+                       data-customize-website-views="theme_81_restaurant.option_header_01_assets,theme_81_restaurant.customize_header_style_1"
+                       data-customize-website-variable="'header_style_1'"
+                       data-img="/theme_81_restaurant/static/src/img/customise_option/h_style-1.jpg"/>
+        </xpath>
+    </template> -->
+
+    <template id="footer_custom_options" inherit_id="website.snippet_options">
+        <xpath expr="//we-select[@data-variable='footer-template']/we-button[last()]" position="after">
+            <we-button title="Footer Style 1"
+              data-customize-website-views="theme_81_restaurant.option_footer_01_assets,theme_81_restaurant.customize_footer_style_1"
+              data-customize-website-variable="'option_footer_01'"
+              data-img="/theme_81_restaurant/static/src/img/customise_option/footer_1.jpg"/>
+       </xpath>
+    </template>
+</odoo>

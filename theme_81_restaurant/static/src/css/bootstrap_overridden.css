@@ -1,0 +1,25 @@
+.btn-primary {
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+    color: #fff !important;
+}
+#cart_products  th {
+    color: #fff;
+} 
+#cart_products  tr td a {
+    color:  var(--main-color) !important;
+}
+
+div.text-center.progress-wizard-steplabel {
+    color: #fff !important;
+}
+.td-price {
+    color: #fff;
+}
+
+span.progress-wizard-dot.d-none.d-md-inline-block {
+    background: var(--main-color) !important;
+}
+.o-color-1 {
+    background-color: blue !important;
+}

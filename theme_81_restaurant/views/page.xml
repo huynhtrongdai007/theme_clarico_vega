@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <!-- === Services Page === -->
+  <record id="about_page" model="website.page">
+    <field name="name">About us</field>
+    <field name="website_published">True</field>
+    <field name="url">/about</field>
+    <field name="type">qweb</field>
+    <field name="key">theme_81_restaurant.about_page</field>
+    <field name="arch" type="xml">
+      <t t-name="theme_81_restaurant.about_page">
+        <t t-call="website.layout">
+          <div class="oe_structure">
+            <div id="wrap">
+              <section class="inner-banner">
+                <div class="image-layer" style="background-image: url(/theme_81_restaurant/static/src/img/background/banner-image-4.jpg);"></div>
+                <div class="auto-container">
+                  <div class="inner">
+                    <div class="subtitle">
+                      <span>any query ?</span>
+                    </div>
+                    <div class="pattern-image">
+                      <img src="theme_81_restaurant/static/src/img/icons/separator.svg" alt="" title="" />
+                    </div>
+                    <h1>
+                      <span>Contact Us</span>
+                    </h1>
+                  </div>
+                </div>
+              </section>
+              <section class="chef-section">
+                <div class="right-bg">
+                  <img src="/theme_81_restaurant/static/src/img/background/bg-26.png" alt="" title="" />
+                </div>
+                <div class="auto-container">
+                  <div class="row clearfix">
+                    <!--Col-->
+                    <div class="image-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                      <div class="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <div class="image">
+                          <img src="/theme_81_restaurant/static/src/img/resource/mainchef.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <!--Col-->
+                    <div class="content-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                      <div class="inner clearfix wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <div class="content-box">
+                          <div class="title-box">
+                            <div class="subtitle">
+                              <span>35 year of experience</span>
+                            </div>
+                            <div class="pattern-image">
+                              <img src="/theme_81_restaurant/static/src/img/icons/separator.svg" alt="" title="" />
+                            </div>
+                            <h2>Award Winning Chef</h2>
+                            <div class="text">Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type.</div>
+                          </div>
+                          <div class="info">
+                            <div class="signature">
+                              <img src="/theme_81_restaurant/static/src/img/resource/signature-2.png" alt="" title="" />
+                            </div>
+                            <div class="author">Henry - EXCUTIVE CHEF</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </t>
+      </t>
+    </field>
+  </record>
+  <record id="reservations_page" model="website.page">
+    <field name="name">Reservations</field>
+    <field name="website_published">True</field>
+    <field name="url">/reservations</field>
+    <field name="type">qweb</field>
+    <field name="key">theme_81_restaurant.reservations_page</field>
+    <field name="arch" type="xml">
+      <t t-name="theme_81_restaurant.reservations_page">
+        <t t-call="website.layout">
+          <div class="oe_structure">
+            <div id="wrap">
+              <section class="inner-banner">
+                <div class="image-layer" style="background-image: url(/theme_81_restaurant/static/src/img/background/banner-image-4.jpg);"></div>
+                <div class="auto-container">
+                  <div class="inner">
+                    <div class="subtitle">
+                      <span>any query ?</span>
+                    </div>
+                    <div class="pattern-image">
+                      <img src="theme_81_restaurant/static/src/img/icons/separator.svg" alt="" title="" />
+                    </div>
+                    <h1>
+                      <span>Contact Us</span>
+                    </h1>
+                  </div>
+                </div>
+              </section>
+              <section>
+                <section class="online-reservation inner-page o_colored_level" data-snippet="reservation_book_a_table" data-name="Reservations Book A Table">
+                  <div class="left-bg">
+                    <img src="/co_81_restaurant/static/images/background/bg-5.png" alt="" title="" loading="lazy" />
+                  </div>
+                  <div class="right-bg">
+                    <img src="/co_81_restaurant/static/images/background/bg-6.png" alt="" title="" loading="lazy" />
+                  </div>
+                  <div class="auto-container">
+                    <div class="title-box centered">
+                      <div class="subtitle">
+                        <span class="o_default_snippet_text">Đặt chỗ</span>
+                      </div>
+                      <div class="pattern-image">
+                        <img src="/co_81_restaurant/static/images/icons/separator.svg" alt="" title="" loading="lazy" />
+                      </div>
+                      <h2 class="o_default_snippet_text">Liên hệ với chúng tôi</h2>
+                      <div class="text desc o_default_snippet_text">Nhà hàng sẽ mở cửa các ngày trong tuần, từ 6:00 đến 22:00</div>
+                      <div class="text request-info o_default_snippet_text">Liên hệ số điện thoại <a href="#" class="o_default_snippet_text">+88-123-123456</a> hoặc điền vào form thông tin </div>
+                    </div>
+                    <div class="auto-container">
+                      <div class="outer-box">
+                        <div class="row clearfix">
+                          <div class="reserv-col col-lg-12 col-md-12 col-sm-12 o_colored_level">
+                            <div class="row">
+                              <div class="col-12 o_colored_level">
+                                <div class="inner">
+                                  <div class="default-form reservation-form">
+                                    <form class="needs-validation" novalidate='1'>
+                                      <div class="row clearfix form-reservation">
+                                        <div class="form-group col-lg-6 col-md-6 col-sm-12 o_colored_level">
+                                          <div class="field-inner">
+                                            <input type="text" id="order_name" value="" placeholder="Họ tên" required="1" />
+                                          </div>
+                                        </div>
+                                        <div class="form-group col-lg-6 col-md-6 col-sm-12 o_colored_level">
+                                          <div class="field-inner">
+                                            <input type="text" id="order_phone" value="" placeholder="Số điện thoại" required="1" />
+                                          </div>
+                                        </div>
+                                        <div class="form-group col-lg-4 col-md-6 col-sm-12 o_colored_level">
+                                          <div class="field-inner">
+                                            <span class="alt-icon far fa-user"></span>
+                                            <select class="l-icon" id="order_person">
+                                              <option>1 Người</option>
+                                              <option>2 Người</option>
+                                              <option>3 Người</option>
+                                              <option>4 Người</option>
+                                              <option>5 Người</option>
+                                              <option>6 Người</option>
+                                              <option>Trên 6 người</option>
+                                            </select>
+                                            <span class="arrow-icon far fa-angle-down"></span>
+                                          </div>
+                                        </div>
+                                        <div class="form-group col-lg-4 col-md-6 col-sm-12 o_colored_level">
+                                          <div class="field-inner">
+                                            <div class="s_website_form_date input-group date" id="datepicker8736913132033968" data-target-input="nearest">
+                                              <input type="text" class="form-control datetimepicker-input s_website_form_input" id="order_date"  data-target="#datepicker8736913132033968" name="Custom Date" required="1" placeholder="Chọn ngày" />
+                                              <div class="input-group-append" data-target="#datepicker8736913132033968" data-toggle="datetimepicker">
+                                                <div class="input-group-text">
+                                                  <i class="fa fa-calendar" />
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 o_colored_level">
+                                          <div class="field-inner">
+                                            <textarea id="order_message" placeholder="Ghi chú" required="1"></textarea>
+                                          </div>
+                                        </div>
+                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 o_colored_level">
+                                          <div class="field-inner">
+                                            <span id="order_btn_submit" class="theme-btn btn-style-one clearfix">
+                                              <span class="btn-wrap">
+                                                <span class="text-one o_default_snippet_text">Đặt bàn</span>
+                                                <span class="text-two o_default_snippet_text">Đặt bàn</span>
+                                              </span>
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="oe_structure">
+                    <section data-snippet="reservation_map" class="o_colored_level" data-name="Reservations Maps">
+                      <div class="map-location-section">
+                        <div class="auto-container">
+                          <div class="outer-box">
+                            <div class="row clearfix">
+                              <div class="reserv-col col-lg-8 col-md-12 col-sm-12 o_colored_level">
+                                <div class="inner">
+                                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1554219365594!2d106.73654499999999!3d10.799405799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527e3ff7e0d47%3A0x4060bf2a00cc8911!2z4bqoTSBUSOG7sEMgODE!5e0!3m2!1svi!2s!4v1676340033557!5m2!1svi!2s" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                              </div>
+                              <div class="info-col col-lg-4 col-md-12 col-sm-12 o_colored_level">
+                                <div class="inner">
+                                  <div class="title">
+                                    <h2 class="o_default_snippet_text">Liên hệ</h2>
+                                  </div>
+                                  <div class="data">
+                                    <ul class="info">
+                                      <li class="o_default_snippet_text">
+                                        <strong class="o_default_snippet_text">Yêu cầu đặt bàn</strong>
+                                        <br />81 Restaurant <br /> Gọi ngay : +88-123-123456 <br /> Email : amthuc81hcm@gmail.com
+                                      </li>
+                                      <div class="separator">
+                                        <span></span>
+                                      </div>
+                                      <li class="o_default_snippet_text">
+                                        <strong class="o_default_snippet_text">Lunch Time</strong>
+                                        <br />Monday to Sunday <br />11.00 am - 2.30pm
+                                      </li>
+                                      <li class="o_default_snippet_text">
+                                        <strong class="o_default_snippet_text">Dinner Time</strong>
+                                        <br />Monday to Sunday <br />05.00 pm - 10.00pm
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </section>
+              </section>
+            </div>
+          </div>
+        </t>
+      </t>
+    </field>
+  </record>
+  <record id="reservations_page_link" model="website.menu">
+    <field name="name">Reservations</field>
+    <field name="page_id" ref="reservations_page" />
+    <field name="parent_id" ref="website.main_menu" />
+    <field name="sequence" type="int">99</field>
+  </record>
+  <record id="about_page_link" model="website.menu">
+    <field name="name">About us</field>
+    <field name="page_id" ref="about_page" />
+    <field name="parent_id" ref="website.main_menu" />
+    <field name="sequence" type="int">99</field>
+  </record>
+</odoo>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+   <template id="assets_frontend" inherit_id="website.assets_frontend">
+    <xpath expr="//link[last()]" position="after">
+        <link rel="stylesheet" type="text/css" href="/theme_81_restaurant/static/src/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="/theme_81_restaurant/static/src/css/responsive.css"/>
+        <link rel="stylesheet" type="text/css" href="/theme_81_restaurant/static/src/css/notie.css"/>
+
+    </xpath>
+     <xpath expr="//script[last()]" position="after">
+        <script type="text/javascript" src="/theme_81_restaurant/static/src/js/my_js/notie.min.js"/>
+        <script type="text/javascript" src="/theme_81_restaurant/static/src/js/my_js/reservations.js"/>
+    </xpath>
+</template>
+
+<template id="_assets_frontend_helpers" inherit_id="website._assets_frontend_helpers">
+    <xpath expr="//link[last()]" position="after">
+        <link rel="stylesheet" type="text/scss" href="/theme_81_restaurant/static/src/css/bootstrap_overridden.css"/>
+    </xpath>
+</template>
+
+</odoo>
